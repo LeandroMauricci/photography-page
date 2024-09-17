@@ -1,0 +1,85 @@
+.fondo1 {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed, scroll;
+	color: #000000;
+	background-image: url("../img/fondo3.gif");
+}
+
+.fondo2 {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed, scroll;
+	color: #000000;
+	background-image: url("../img/fondo1.gif");
+}
+
+
+header {
+	background: rgb(0, 0, 0);
+	padding: 20px;
+	padding-right: 30px;
+	margin-bottom: 20px;
+	justify-content: center;
+	color: #fff;
+}
+
+.contenedor-main {
+	margin-bottom: 20px;
+}
+
+main {
+	background: #000000;
+	color: #424242;
+	padding: 20px 0;
+}
+
+aside {
+	background: #dee5e8;
+	padding: 60px 0;
+	color: #0d48a1;
+}
+
+.widgets {
+	background: rgba(0, 162, 255, 0.466);
+	color: #fff;
+	padding: 30px;
+	margin-bottom: 15px;
+
+}
+
+.widgets2 {
+	background: rgba(0, 238, 255, 0.308);
+	color: #fff;
+	padding: 30px;
+	margin-bottom: 15px;
+
+	width: 200px;
+	height: 100%;
+	object-fit: none;
+}
+
+.widgets3 {
+	color: #fff;
+}
+
+footer {
+	padding: 20px 0;
+	background: #000288;
+	color: #fff;
+	justify-content: center;
+}
+
+.imagen-recortada>img {
+	width: 100%;
+	height: 227px;
+	object-fit: cover;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+}
