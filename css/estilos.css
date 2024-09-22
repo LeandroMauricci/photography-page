@@ -17,11 +17,13 @@
 
 header {
 	background: rgb(0, 0, 0);
-	padding: 20px;
-	padding-right: 30px;
 	margin-bottom: 20px;
-	justify-content: center;
 	color: #fff;
+	padding: 20px;
+	justify-content: space-between;
+}
+header > div {
+	text-align: center;
 }
 
 .contenedor-main {
@@ -40,7 +42,7 @@ aside {
 	color: #0d48a1;
 }
 
-.widgets {
+.contenedor-imagen1 {
 	background: rgba(0, 162, 255, 0.466);
 	color: #fff;
 	padding: 30px;
@@ -48,7 +50,7 @@ aside {
 
 }
 
-.widgets2 {
+.contenedor-imagen2 {
 	background: rgba(0, 238, 255, 0.308);
 	color: #fff;
 	padding: 30px;
@@ -57,10 +59,6 @@ aside {
 	width: 200px;
 	height: 100%;
 	object-fit: none;
-}
-
-.widgets3 {
-	color: #fff;
 }
 
 footer {
@@ -76,10 +74,20 @@ footer {
 	object-fit: cover;
 }
 
-header {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	box-sizing: border-box;
-	padding: 20px;
+
+.contenedor1 {
+	max-width: 80%;
+}
+
+.contenedor-imagen:hover img {
+	
+	opacity: .3;
+}
+
+.col4 {
+	max-width: 33%;
+}
+
+.col8 {
+	max-width: 66%;
 }
