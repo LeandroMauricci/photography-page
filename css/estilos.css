@@ -66,9 +66,10 @@ footer {
 	background: #000288;
 	color: #fff;
 	justify-content: center;
+	margin-top: 5%;
 }
 
-.imagen-recortada>img {
+.imagen-recortada> img {
 	width: 100%;
 	height: 227px;
 	object-fit: cover;
@@ -79,8 +80,13 @@ footer {
 	max-width: 80%;
 }
 
-.contenedor-imagen:hover img {
-	
+.contenedor-imagen1 a {
+    background: #ffffff;
+    display: inline-block;
+    overflow: hidden; 
+}
+
+.contenedor-imagen1:hover {
 	opacity: .3;
 }
 
