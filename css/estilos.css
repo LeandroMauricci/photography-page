@@ -84,10 +84,12 @@ footer {
     background: #ffffff;
     display: inline-block;
     overflow: hidden; 
+
+	position: relative;
 }
 
-.contenedor-imagen1:hover {
-	opacity: .3;
+.contenedor-imagen1:hover ~ .contenedor-imagen1 > div {
+	opacity: 0.3;
 }
 
 .col4 {
@@ -96,4 +98,18 @@ footer {
 
 .col8 {
 	max-width: 66%;
+}
+
+.textoEspecial {
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+	color: #000000;
+	opacity: 50%;
+}
+
+.contenedor-imagen1:hover ~ .textoEspecial h2 {
+
+	opacity: 1;
 }
